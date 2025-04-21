@@ -43,7 +43,7 @@ async function checkApi() {
 }
 
 // Run every 10 minutes
-// setInterval(checkApi, 10 * 60 * 1000);
+setInterval(checkApi, 10 * 60 * 1000);
 
 // Run once immediately
 checkApi();
