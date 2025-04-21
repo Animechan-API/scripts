@@ -34,9 +34,11 @@ async function checkApi() {
   try {
     const response = await fetch(API_URL);
     console.log(`API status: ${response.status} at ${new Date().toISOString()}`);
-    await sendToDiscord(
-      `<@${USER_ID}> 🚨 Animechan API returned 500 🚨 Please look into it!`,
-    );
+    if (!response.ok) {
+      await sendToDiscord(
+        `<@${USER_ID}> 🚨 Animechan API returned ${response.status} 🚨 Please look into it!`,
+      );
+    }
   } catch (error) {
     console.error("API check failed:", error.message);
   }
