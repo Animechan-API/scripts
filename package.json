@@ -16,6 +16,6 @@
     "@biomejs/biome": "^1.9.4",
     "discord.js": "^14.18.0",
     "dotenv": "^16.5.0",
-    "send-discord-message": "^1.0.0"
+    "send-discord-message": "^1.0.1"
   }
 }

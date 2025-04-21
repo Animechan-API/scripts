@@ -18,8 +18,8 @@ importers:
         specifier: ^16.5.0
         version: 16.5.0
       send-discord-message:
-        specifier: ^1.0.0
-        version: 1.0.0
+        specifier: ^1.0.1
+        version: 1.0.1
 
 packages:
 
@@ -243,8 +243,8 @@ packages:
     engines: {node: 20 || >=22}
     hasBin: true
 
-  send-discord-message@1.0.0:
-    resolution: {integrity: sha512-5bF8d5MoN1BOi54ppT6KaWgDkuGzOHB3a6krryE/66gMv+znA7FXZdNaoDop9Tc6hH/aaXFRywoFFlmUvUTEZw==}
+  send-discord-message@1.0.1:
+    resolution: {integrity: sha512-Cd1tZJ5/qEeHMeTGaXpCCHwFVD/u547P1HaNHN4QvUS0n0lGnJ9tSFcxomfBBpzzTct87AHgNj3vQcmewcWq1Q==}
     engines: {node: '>=18'}
 
   shebang-command@2.0.0:
@@ -535,7 +535,7 @@ snapshots:
       glob: 11.0.1
       package-json-from-dist: 1.0.1
 
-  send-discord-message@1.0.0: {}
+  send-discord-message@1.0.1: {}
 
   shebang-command@2.0.0:
     dependencies:

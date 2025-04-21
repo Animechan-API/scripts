@@ -5,7 +5,7 @@ import SendDiscordMessage from "send-discord-message";
 dotenv.config();
 
 // My Discord user ID
-const USER_ID = "746007341572554882";
+const USER_ID = process.env.DISCORD_USER_ID;
 
 // Initialize the messenger with a Discord channel webhook
 const messenger = new SendDiscordMessage(process.env.ALERTS_WEBHOOK_URL);
